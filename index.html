@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRE Services, Inc.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<style>
+body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    background: #f1f1f1;
+}
+p {
+    font-size: 0.9rem;
+}
+.menu {
+    padding: 0;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+li a {
+    text-decoration: none;
+}
+li a {
+    color: gray;
+}
+
+li a:hover {
+    color: gray;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: gray;
+    padding: 5px;
+}
+#showcase {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+
+
+@media screen and (max-width: 400px) {
+    .flex {
+        display: block;
+    }
+    .card-one {
+        min-width: 300px;
+    }
+    .card-two {
+        min-width: 300px;
+    }
+    .card-three {
+        min-width: 300px;
+    }
+
+}
+.section1, .section2, .section3 {
+    display: flex;
+}
+
+#btn-fo:hover {
+    background: white;
+    color: blue;
+}
+#btn-fb:hover {
+    background: white;
+    color: red;
+}
+#btn-cook:hover {
+    background: white;
+    color: green;
+}
+#footer {
+    display: flex;
+}
+</style>    
+</head>
+<body width="100%" style="margin: 0; padding: 0">
+<div class="container bg-white" style="max-width: 600px; padding: 0;">
+    <!-- Navbar -->
+    <div>
+        <table width="100%">
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td width="40%">
+                                <img src="logo.png" height="50px">
+                            </td>
+                            <td width="60%">
+                                <ul class="menu text-end">
+                                    <li><a href="https://ireservices.com">Home</a></li>
+                                    <li><a href="https://ireservices.com/about-us">About</a></li>
+                                    <li><a href="https://ireservices.com/blog">Blog</a></li>
+                                    <li><a href="https://ireservices.com/contact">Contact</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- Showcase -->
+    <div id="showcase" style="background-image: url(sunset.jpg); background-size: cover;">                   
+            <h2 class="text-light pt-5 pb-3">Hospitality J1 visa Openings</h2>
+            <h3 class="text-light py-1 bg-warning">Fall Newsletter</h3>
+            <p class="text-light px-1 py-3">We have several hospitality openings throughout the US. We have Front Office, Food & Beverage, Culinary, Human Resources and IT openings.</p>
+    </div>
+    <!-- Slogan -->
+    <div class="p-2 pt-3">
+            <h3 class="text-center">OUR OPENINGS</h3>
+            <p class="text-center p-1">We have openings in well-known hotel chains including Hilton, Sheraton, Crowne Plaza, Marriott etc. througout the US.</p>
+    </div>
+    <!-- Cards -->
+    <div class="flex px-5">
+        <div class="card card-one bg-primary text-light" style="width: 33.33%; border-radius: 0px;">
+        <h5 class="text-center">Front Office</h5>
+        <p class="px-2">We have total 26 Front Office openings throughout the US. Most of our positions are 12 months openings and we also have few 6 months positions available.</p>
+        </div>
+        <div class="card card-two bg-danger text-light" style="width: 33.33%; border-radius: 0px;">
+        <h5 class="text-center">Food & Beverage</h5>
+        <p class="px-2">We have 8 Food & Beverage openings. Hourly rate is between $12-$17 depends on the location. Most of our host companies offer upto 2 weeks of accomodation upon arrival.</p>
+        </div>
+        <div class="card card-three bg-success text-light" style="width: 33.33%; border-radius: 0px;">
+        <h5 class="text-center">Culinary</h5>
+        <p class="px-2 text-white">We have 8 Culinary openings. Hourly rate is between $12-$17 depends on the location. Most of our host companies offer upto 2 weeks of accomodation upon arrival.</p>
+        </div>
+    </div>
+    <!-- Sections FO-->
+    <div class="section1 px-5 pt-5">
+        <div style="width: 50%;">
+            <img src="fo.jpg" height="250px" style="border-radius: 300px;">
+        </div>
+        <div style="width: 50%;">
+            <h4>Front Office Openings</h4>
+            <p>We have below openings:</p>
+            <ul>
+                <li>Charlotte, NC</li>
+                <li>Knoxville, TN</li>
+                <li>Richmond, VA</li>
+                <li>Denver, CO</li>
+                <li>Nashville, TN</li>
+            </ul>
+            <a href="https://ireservices.com/contact" id="btn-fo" class="btn mx-1 btn-primary">Apply Now</a>
+        </div>
+    </div>
+    <!-- Sections FB -->
+    <div class="section2 px-5 pt-5">    
+        <div style="width: 50%;">
+            <h4>F&B Openings</h4>
+            <p>We have below openings:</p>
+            <ul>
+                <li>Milwaukee, WI</li>
+                <li>Louisville, KY</li>
+                <li>Richmond, VA</li>
+                <li>Denver, CO</li>
+                <li>Nashville, TN</li>
+            </ul>
+            <a href="https://ireservices.com/contact" id="btn-fb" class="btn mx-1 btn-danger">Apply Now</a>
+        </div>
+        <div style="width: 50%;">
+        <img src="fb.jpg" height="250px" style="border-radius: 300px;">
+        </div>
+    </div>
+    <!-- Section Culinary -->
+    <div class="section3 px-5 pt-5">
+        <div style="width: 50%;">
+            <img src="culinary.jpg" height="250px" style="border-radius: 300px;">
+        </div>
+        <div style="width: 50%;">
+            <h4>Culinary Openings</h4>
+            <p>We have below openings:</p>
+            <ul>
+                <li>Indianapolis, IN</li>
+                <li>Knoxville, TN</li>
+                <li>Knoxville, TN</li>
+                <li>Denver, CO</li>
+                <li>Nashville, TN</li>
+            </ul>
+            <a href="https://ireservices.com/contact" id="btn-cook" class="btn mx-1 btn-success">Apply Now</a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer"class="bg-dark text-muted">
+        <div class="p-4"style="width: 60%;">
+            <h3>About</h3>
+            <p>Our Aspiration is to create an opportunity for individuals who want a J-1 visa Internship in America and help employers find qualified individuals to train/work in their establishment. We go the extra mile for the candidate and employer throughout the entire process!</p>
+        </div>
+        <div class="p-4" style="width: 40%;">
+            <h5>Contact Info</h5>
+            <p>3446 Winder Hwy, Suite M #306 Flowery Branch, GA 30542</p>
+            <p> +1 678 283 2814</p>
+        </div>
+    </div>
+    <div class="bg-dark text-muted px-4">
+        <p>Copyright ©2022 IREServices.com All Rights Reserved</p>
+    </div>
+</div>
+</body>
+</html>
